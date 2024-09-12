@@ -1,15 +1,6 @@
 # **Practical Assessment**
-## **Lou Geh Cardealership Company**
-Lou Geh car dealership sells both new and used cars, and it operates a service facility.
-- A salesperson may sell many cars, but each car is sold by only one salesperson.
-- A customer may buy many cars, but each car is bought by only one customer.
-- A salesperson writes a single invoice for each car he or she sells.
-- A customer gets an invoice for each car he or she buys.
-- A customer may come in just to have his or her car serviced; that is, a customer need not buy a car to be classified as a customer.
--	When a customer takes one or more cars in for repair or service, one service ticket is written for each car.
--	The car dealership maintains a service history for each of the cars serviced. The service records are referenced by the car’s serial number.
-- A car brought in for service can be worked on by many mechanics, and each mechanic may work on many cars.
-- A car that is serviced may or may not need parts (e.g., adjusting a carburetor or cleaning a fuel injector nozzle does not require providing new parts).
+## **Lou Geh Tracking System**
+Lou Geh prides itself on having up-to-date information on the processing and current location of each shipped item. To do this, Lou Geh relies on a company-wide information system. Shipped items are the heart of the Lou Geh product tracking system. Shipped items can be characterized by item number (unique), weight, dimensions, insurance amount, destination, and final delivery date. Shipped items are received into the Lou Geh system at a single retail center. Retail centers are characterized by their type, uniqueID, and address. Shipped items make their way to their destination via one or more standard Lou Geh transportation events (i.e., flights, truck deliveries). These transportation events are characterized by a unique scheduleNumber, a type (e.g, flight, truck), and a deliveryRoute.
 
 ## **Task**
 1. Create a prototype based on the attached problem
@@ -22,7 +13,7 @@ Lou Geh car dealership sells both new and used cars, and it operates a service f
    2. DFD
 4. Provide a ```README.md``` containing the setup guide.
 5. The application should be published in Github via forked repository and for final version of your prototype will create a ```Pull request``` in Github 
-6. You will send the Github link to us thru our email devops@biotechfarms.com on or before **14-10-203** 12:00 PM
+6. You will send the Github link to us thru our email devops@biotechfarms.com on or before **15-09-2024** 12:00 PM
 
 
     ### **Directory structure**
